@@ -1,0 +1,209 @@
+*{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+
+}
+
+.logo{
+    width: 110px;
+    float: left;
+    margin-top: 55px;
+    margin-left: 70px;
+
+}
+
+/* .background-image{
+    position: absolute;
+    padding: 40px;
+    z-index: -1;
+    width: 100%;
+    margin-top: 0px;
+} */
+
+#header{
+    padding-left: 40px;
+    padding-top: 40px;
+    background-image: url(images/background1.PNG);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -1;
+    position: fixed;
+}
+
+nav{
+    float: right;
+    margin-right: 5%;
+    justify-content: space-between;
+    margin-top: 0;
+    
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+    font-size: 15px;
+}
+
+
+nav ul li a{
+    text-decoration: none;
+}
+
+a:hover {
+    color: burlywood;
+}
+
+.main-text{
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 300;
+    padding: 90px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 250px;
+}
+
+.main-text span{
+    color: burlywood;
+}
+
+.sub-text{
+    position: absolute;
+    z-index: 1;
+    padding-left: 90px;
+    margin-top: 510px;
+    font-size: 18px;
+}
+
+.sub-text span{
+    color: burlywood;
+}
+
+#about-me-div{
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 90px;
+    margin-bottom: 200px;
+    width: 100%;
+    height: 970px;
+    content: '';
+    border-top-style: solid;
+    border-color: burlywood;
+    border-width: .1px;
+}
+
+.about-text{
+    font-size: 25px;
+    width: 120px;
+    font-weight: 300;
+    padding-top: 35px;
+    color: burlywood;
+}
+
+p span{
+    color: burlywood;
+}
+
+p{
+    line-height: 23px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+#skills-section{
+    width: 50px;
+    position:absolute;
+    margin-top: 725px;
+    margin-left: 750px;
+    height: 0;
+}
+
+#skillset{
+    border-collapse: collapse;
+    padding: 8px;
+    width: 400px;
+}
+
+#skillset td, #skillset th{
+    border: .5px solid burlywood;
+    padding: 8px;
+    text-align: left;
+}
+
+#skillset th{
+    font-weight: 300;
+    color: burlywood;
+}
+
+#skillset td{
+    font-weight: 200;
+}
+
+#contact-section{
+    position: absolute;
+    margin-top: 1140px;
+    margin-left: 90px;
+}
+
+#form-inputs{
+    width: 200px;
+}
+
+form input, form textarea{
+    width: 500px;
+    height: 30px;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: .1px;
+    border-color: burlywood;
+    color: white;
+    font-size: 12px;
+    padding-bottom: 4px;
+}
+
+.text-area{
+
+}
+
+.button {
+    width: 70px;
+    height: 30px;
+    background-color: burlywood;
+    color: black;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+#footer{
+    position: absolute;
+    margin-top: 1600px;
+    margin-left: 90px;
+    width: 100%;
+    height: 40px;
+    border-top-style: solid;
+    border-width: .1px;
+    color: burlywood;
+    padding-bottom: 3px;
+    padding-top: 2px;
+    font-size: 13px;
+}
+
+p span{
+    color: burlywood;
+}
+
